@@ -1,0 +1,84 @@
+/* =================================== */
+/* ==      GLOBAL & BODY STYLES      == */
+/* =================================== */
+
+body {
+    font-family: 'Pill-shaped', serif;
+    background-color: #022323; 
+    background-attachment: fixed;
+}
+
+/* =================================== */
+/* == NEW EYE-CATCHING DESIGN STYLES == */
+/* =================================== */
+
+/* New Hero Section with Background Image */
+.hero-main {
+    background-image: linear-gradient(to right, rgba(11, 36, 71, 0.2), rgba(25, 55, 109, 0.1)), url('images/hero-main-bg.jpg');
+/* Changed 0.8 to 0.2 and 0.6 to 0.1 for a much lighter, almost transparent overlay */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line */
+
+}
+
+.hero-main h1 {
+    font-size: 4rem; /* This is 56px, a bit smaller */
+    font-weight: 600;
+    line-height: 1.2;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.hero-main p {
+    font-size: 1.125rem;
+    max-width: 500px;
+    text-shadow: 5px 5px 10px rgba(138, 250, 19, 0.5);
+}
+
+/* New Button Styles */
+.btn {
+    padding: 20px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    display: display-box;
+    box-shadow: 3 4px 15px rgb(19, 18, 19);
+}
+
+.btn-primary {
+    background-color: #F9A826;
+    color: #053698;
+}
+
+.btn-primary:hover {
+    background-color: #FBC531;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    
+    
+    
+}
+.hero-subheading {
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+    color: #120101;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6rem; /* <-- ADD THIS LINE (18px) */
+}
+
+
