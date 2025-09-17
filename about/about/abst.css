@@ -1,0 +1,55 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#6594f2; padding:15px; color:#b10a0a; display:flex; justify-content:space-between; align-items:center; }
+nav a { color:#572424; margin:0 10px; text-decoration:none; }
+.hero { background:url('images/aboutbi.webp') center/cover; color:#f3dede; text-align:center; padding:100px 20px; }
+
+
+.site-footer {
+  background: #f2f2f2;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-social {
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 8px;
+  border: 2px solid #1565c0;
+  border-radius: 50%;
+  color: #1565c0;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #1565c0;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.site-footer p {
+  color: #666;
+  margin-top: 10px;
+}
